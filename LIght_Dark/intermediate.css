@@ -1,0 +1,74 @@
+#div1:hover  {	color:red;
+	  			 width:500px;
+	   			height:150px;
+	   			margin-bottom:15px;
+	   			display: flex;
+	   			background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#66cccc), to(#336666));
+	   			
+	   			transition: width 2s, height 2s;
+				box-shadow: 1px, black;
+				transform: rotate(35deg);
+}
+
+#div2:hover  {	color:white;
+				width:500px;
+	   			height:150px;
+	  			 margin-bottom:15px;
+	  			 display: flex;
+	  			 background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#111ccc), to(#336666));
+	  			 transition:ease-out;
+	  			 transition: width 2s, height 4s;
+	  			 transform: rotate(-35deg);
+
+
+}
+
+#div3:hover	 {		color:black;
+					width:500px;
+	   				height:150px;
+	  				margin-bottom:15px;
+	   				 display: flex;
+	   				 background-color:blue;
+	   				 transition:ease ease-in-out;
+					transition: width 2s, height 4s;
+					transform: rotate(180deg);
+}
+
+#div1		  {color:blue;
+	  		 width:500px;
+	   			height:150px;
+	   			margin-bottom:15px;
+	   			display: flex;
+	   			background-color:grey;
+	   			transition:ease-in;
+	   			transition: width 2s, height 4s;
+					transition-timing-function: linear;
+				box-shadow: 1px, lightblue;
+}
+
+#div2  {	color:orange;
+				width:500px;
+	   			height:150px;
+	  			 margin-bottom:15px;
+	  			 display: flex;
+	  			 background-color: red;
+	  			 transition:ease-out;
+	  			 transition: width 2s, height 4s;
+	  			 text-shadow: 1px;
+	  			 font-family: arial;
+
+
+
+}
+
+#div3		 {		color:yellow;
+					width:500px;
+	   				height:150px;
+	  				margin-bottom:15px;
+	   				 display: flex;
+	   				 background-color:blue;
+	   				 transition:ease ease-in-out;
+					transition: width 2s, height 4s;
+					text-shadow:5px;
+					font-family: courier;
+}
