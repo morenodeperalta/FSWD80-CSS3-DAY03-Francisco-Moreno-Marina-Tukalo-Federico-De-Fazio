@@ -1,0 +1,36 @@
+h1, p {text-align: center;}
+
+div {
+  background: blue;  
+  width: 200px;
+  height: 150px;
+  box-shadow: 20px 20px grey;
+  -webkit-transition: width 3s, height 3s, -webkit-transform 3s; /* Safari */
+  transition: width 3s, height 3s, transform 3s;
+  transition-timing-function: ease-in-out;
+
+}
+
+div:hover {
+  background: yellow;
+  width: 300px;
+  height: 300px;
+  box-shadow: 20px 20px black;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+  transition-timing-function: ease-in-out;
+}
+
+
+p{
+
+  background: orange;
+	transition: all 3s ease-in;
+  font-size: 30px;
+
+}
+
+p:hover{
+	background: green;
+  font-size: 40px;
+}
